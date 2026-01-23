@@ -1,0 +1,483 @@
+{
+  "university_program": "School of Engineering (SoE)",
+  "core_requirements": {
+    "common_engineering_foundation": {
+      "first_year": {
+        "semester_1": [
+          {"id": "14:440:101", "name": "Intro to Data-Driven Design for Eng App", "credits": 2, "ref": "[1]"},
+          {"id": "01:160:159", "name": "General Chemistry for Engineers", "credits": 3, "ref": "[1]"},
+          {"id": "01:160:171", "name": "Introduction to Experimentation", "credits": 1, "ref": "[2]"},
+          {"id": "01:355:101", "name": "College Writing", "credits": 3, "ref": "[2]"},
+          {"id": "01:640:151", "name": "Calculus for Math and Phys Sci", "credits": 4, "ref": "[2]"},
+          {"id": "01:750:123", "name": "Analytical Physics I", "credits": 2, "ref": "[2]"},
+          {"id": "elective", "name": "H/SS elective (Recommended)", "credits": 3, "ref": "[2]"}
+        ],
+        "semester_2": [
+          {"id": "14:440:102", "name": "Integrated Data-Driven Design for Eng App", "credits": 2, "ref": "[2]"},
+          {"id": "01:640:152", "name": "Calculus for Math and Phys Sci", "credits": 4, "ref": "[3]"},
+          {"id": "01:750:124", "name": "Analytical Physics IB", "credits": 2, "ref": "[3]"},
+          {"id": "14:440:221", "name": "Engineering Mechanics: Statics", "credits": 3, "ref": "[3]"},
+          {"id": "elective", "name": "H/SS elective (Recommended)", "credits": 3, "ref": "[3]"}
+        ]
+      },
+      "special_notes": "General Chemistry II (01:160:160) is required for all SoE majors EXCEPT Electrical and Computer Engineering [3]."
+    },
+    "general_education_requirements": {
+      "humanities_social_sciences": "Total of 4 classes (12 credits) required for graduation [4].",
+      "mandatory_core": [
+        {"id": "14:540:343", "name": "Engineering Economics", "ref": "[4]"}
+      ]
+    }
+  },
+  "degree_tracks": [
+    {
+      "degree_name": "Electrical Engineering Undergraduate Curriculum",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "14:332:221", "name": "Principles of Electrical Engineering I", "credits": 3, "ref": "[5]"},
+            {"id": "14:332:223", "name": "Principles of Electrical Engineering I Lab", "credits": 1, "ref": "[5]"},
+            {"id": "14:332:231", "name": "Digital Logic Design", "credits": 3, "ref": "[5]"},
+            {"id": "14:332:233", "name": "Digital Logic Design Lab", "credits": 1, "ref": "[6]"},
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[6]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[6]"},
+            {"id": "01:750:229", "name": "Analytical Physics II Lab", "credits": 1, "ref": "[6]"}
+          ],
+          "spring": [
+            {"id": "14:332:222", "name": "Principles of Electrical Engineering II", "credits": 3, "ref": "[6]"},
+            {"id": "14:332:224", "name": "Principles of Electrical Engineering II Lab", "credits": 1, "ref": "[6]"},
+            {"id": "14:332:226", "name": "Probability & Random Proc.", "credits": 3, "ref": "[7]"},
+            {"id": "14:332:252", "name": "Programming Method I", "credits": 4, "ref": "[7]"},
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[7]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:332:331", "name": "Computer Arch.", "credits": 3, "ref": "[7]"},
+            {"id": "14:332:333", "name": "Computer Arch. Lab", "credits": 1, "ref": "[7]"},
+            {"id": "14:332:345", "name": "Linear Systems & Signals", "credits": 3, "ref": "[7]"},
+            {"id": "14:332:361", "name": "Electronic Devices", "credits": 3, "ref": "[8]"},
+            {"id": "14:332:363", "name": "Electronic Devices Lab", "credits": 1, "ref": "[8]"},
+            {"id": "elective", "name": "Humanities/Social Sciences elective (200+)", "credits": 3, "ref": "[8]"},
+            {"id": "14:332:elective", "name": "Restricted Electrical elective", "credits": 3, "ref": "[8]"}
+          ],
+          "spring": [
+            {"id": "14:332:312", "name": "Discrete Mathematics", "credits": 3, "ref": "[8]"},
+            {"id": "14:332:346", "name": "Digital Signal Processing", "credits": 3, "ref": "[8]"},
+            {"id": "14:332:348", "name": "Digital Signal Processing Lab", "credits": 1, "ref": "[9]"},
+            {"id": "14:332:393", "name": "Professionalism/Ethics", "credits": 1, "ref": "[9]"},
+            {"id": "14:332:366", "name": "Digital Electronics", "credits": 3, "ref": "[9]"},
+            {"id": "14:332:368", "name": "Digital Electronics Lab", "credits": 1, "ref": "[9]"},
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[9]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:332:449", "name": "Intro to Capstone Design", "credits": 1, "ref": "[9]"},
+            {"id": "14:332:elective", "name": "Electrical elective", "credits": 3, "ref": "[10]"},
+            {"id": "14:332:elective", "name": "Electrical elective", "credits": 3, "ref": "[10]"},
+            {"id": "elective", "name": "Technical elective", "credits": 3, "ref": "[10]"},
+            {"id": "elective", "name": "Humanities/Social Sciences elective (200+)", "credits": 3, "ref": "[10]"},
+            {"id": "elective", "name": "Science Math Eng elective", "credits": 3, "ref": "[10]"}
+          ],
+          "spring": [
+            {"id": "14:332:448", "name": "Capstone Design in ECE", "credits": 3, "ref": "[10]"},
+            {"id": "14:332:elective", "name": "Electrical elective", "credits": 3, "ref": "[11]"},
+            {"id": "elective", "name": "Technical elective", "credits": 3, "ref": "[11]"},
+            {"id": "elective", "name": "General elective", "credits": 3, "ref": "[11]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Electrical and Computer Engineering Degree Curriculum (CE Track)",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "14:332:221", "name": "Principles of Elec. Eng. I", "credits": 3, "ref": "[11]"},
+            {"id": "14:332:223", "name": "Principles of EE I Lab", "credits": 1, "ref": "[12]"},
+            {"id": "14:332:231", "name": "Digital Logic Design", "credits": 3, "ref": "[12]"},
+            {"id": "14:332:233", "name": "Digital Logic Design Lab", "credits": 1, "ref": "[12]"},
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[12]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[12]"},
+            {"id": "01:750:229", "name": "Analytical Physics II Lab", "credits": 1, "ref": "[12]"}
+          ],
+          "spring": [
+            {"id": "14:332:222", "name": "Principles of Elec. Eng. II", "credits": 3, "ref": "[13]"},
+            {"id": "14:332:224", "name": "Principles of EE II Lab", "credits": 1, "ref": "[13]"},
+            {"id": "14:332:226", "name": "Probability & Random Proc.", "credits": 3, "ref": "[13]"},
+            {"id": "14:332:252", "name": "Programming Method. I", "credits": 4, "ref": "[13]"},
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[13]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:332:331", "name": "Computer Arch.", "credits": 3, "ref": "[13]"},
+            {"id": "14:332:333", "name": "Computer Arch. Lab", "credits": 1, "ref": "[14]"},
+            {"id": "14:332:345", "name": "Linear Systems & Signals", "credits": 3, "ref": "[14]"},
+            {"id": "14:332:351", "name": "Programming Method. II", "credits": 3, "ref": "[14]"},
+            {"id": "14:332:elective", "name": "Restricted Comp. elective", "credits": 3, "ref": "[14]"},
+            {"id": "elective", "name": "Humanities/Soc Elective (200+)", "credits": 3, "ref": "[14]"}
+          ],
+          "spring": [
+            {"id": "14:332:312", "name": "Discrete Mathematics", "credits": 3, "ref": "[14]"},
+            {"id": "14:332:452", "name": "Software Engineering", "credits": 3, "ref": "[15]"},
+            {"id": "14:332:434", "name": "Intro to Comp. Systems", "credits": 3, "ref": "[15]"},
+            {"id": "14:332:393", "name": "Professionalism/Ethics", "credits": 1, "ref": "[15]"},
+            {"id": "14:540:343", "name": "Engineering Econ", "credits": 3, "ref": "[15]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[15]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:332:437", "name": "Digital System Design", "credits": 3, "ref": "[15]"},
+            {"id": "14:332:449", "name": "Intro to Capstone Design", "credits": 1, "ref": "[16]"},
+            {"id": "elective", "name": "Computer elective", "credits": 3, "ref": "[16]"},
+            {"id": "elective", "name": "Computer elective", "credits": 3, "ref": "[16]"},
+            {"id": "elective", "name": "Humanities/Soc elective (200+)", "credits": 3, "ref": "[16]"},
+            {"id": "elective", "name": "Science Math Eng elective", "credits": 3, "ref": "[16]"}
+          ],
+          "spring": [
+            {"id": "14:332:448", "name": "Capstone Design in ECE", "credits": 3, "ref": "[16]"},
+            {"id": "elective", "name": "Computer elective", "credits": 3, "ref": "[1]"},
+            {"id": "elective", "name": "Technical elective", "credits": 3, "ref": "[1]"},
+            {"id": "elective", "name": "General elective", "credits": 3, "ref": "[1]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Mechanical Engineering",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "14:440:222", "name": "Engineering Mechanics (Dynamics)", "credits": 3, "ref": "[4]"},
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[17]"},
+            {"id": "14:650:388", "name": "CAD in Mechanical Engineering", "credits": 3, "ref": "[17]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[17]"},
+            {"id": "01:750:229", "name": "Analytical Physics IIA Lab", "credits": 1, "ref": "[17]"},
+            {"id": "14:650:289", "name": "Professional and Leadership Development in MAE", "credits": 3, "ref": "[17]"}
+          ],
+          "spring": [
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[17]"},
+            {"id": "14:650:291", "name": "Mechanics of Materials", "credits": 3, "ref": "[18]"},
+            {"id": "14:650:351", "name": "Thermodynamics", "credits": 3, "ref": "[18]"},
+            {"id": "14:650:361", "name": "Mechatronics", "credits": 4, "ref": "[18]"},
+            {"id": "01:750:228", "name": "Analytical Physics IIB", "credits": 3, "ref": "[18]"},
+            {"id": "01:750:230", "name": "Analytical Physics IIB Lab", "credits": 1, "ref": "[18]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[18]"},
+            {"id": "01:640:421", "name": "Advanced Calculus for Engineering", "credits": 3, "ref": "[19]"},
+            {"id": "14:650:342", "name": "Design of Mechanical Components", "credits": 3, "ref": "[19]"},
+            {"id": "14:650:350", "name": "MAE Measurements with Lab", "credits": 4, "ref": "[19]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[19]"}
+          ],
+          "spring": [
+            {"id": "14:635:407", "name": "Mechanical Properties of Materials", "credits": 3, "ref": "[19]"},
+            {"id": "14:650:312", "name": "Fluid Mechanics", "credits": 3, "ref": "[19]"},
+            {"id": "14:650:439", "name": "Multiphysics Simulations", "credits": 3, "ref": "[20]"},
+            {"id": "elective", "name": "General Elective", "credits": 3, "ref": "[20]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[20]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:650:431", "name": "MAE Laboratory I", "credits": 2, "ref": "[20]"},
+            {"id": "14:650:467", "name": "Design and Manufacturing I", "credits": 2, "ref": "[20]"},
+            {"id": "14:650:481", "name": "Heat Transfer", "credits": 3, "ref": "[20]"},
+            {"id": "elective", "name": "Dept/Aero/Energy Core", "credits": 3, "ref": "[21]"},
+            {"id": "elective", "name": "Dept/Aero/Energy Core", "credits": 3, "ref": "[21]"},
+            {"id": "elective", "name": "Humanities/Social Sciences (200+)", "credits": 3, "ref": "[21]"}
+          ],
+          "spring": [
+            {"id": "14:650:401", "name": "Dynamic Systems and Controls", "credits": 3, "ref": "[21]"},
+            {"id": "14:650:43x", "name": "ME/Aerospace/Energy Lab", "credits": 2, "ref": "[21]"},
+            {"id": "14:650:468", "name": "Design and Manufacturing II", "credits": 2, "ref": "[21]"},
+            {"id": "elective", "name": "Dept/Aero/Energy Core", "credits": 3, "ref": "[22]"},
+            {"id": "elective", "name": "General Elective", "credits": 3, "ref": "[22]"},
+            {"id": "elective", "name": "Humanities/Social Sciences (200+)", "credits": 3, "ref": "[22]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Aerospace Engineering",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "14:440:222", "name": "Engineering Mechanics: Dynamics", "credits": 3, "ref": "[22]"},
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[23]"},
+            {"id": "14:650:210", "name": "Introduction to Aerospace Engineering", "credits": 3, "ref": "[23]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[23]"},
+            {"id": "01:750:229", "name": "Analytical Physics IIA Lab", "credits": 1, "ref": "[23]"},
+            {"id": "14:650:291", "name": "Mechanics of Materials", "credits": 3, "ref": "[23]"}
+          ],
+          "spring": [
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[23]"},
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[24]"},
+            {"id": "14:650:351", "name": "Thermodynamics", "credits": 3, "ref": "[24]"},
+            {"id": "14:650:361", "name": "Introduction to Mechatronics", "credits": 4, "ref": "[24]"},
+            {"id": "14:650:388", "name": "Computer-Aided Design in MAE", "credits": 3, "ref": "[24]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "01:640:421", "name": "Advanced Calculus for Engineering", "credits": 3, "ref": "[24]"},
+            {"id": "14:650:312", "name": "Fluid Mechanics", "credits": 3, "ref": "[24]"},
+            {"id": "14:650:342", "name": "Design of Mechanical Components", "credits": 3, "ref": "[25]"},
+            {"id": "14:650:350", "name": "MAE Measurements with Lab", "credits": 4, "ref": "[25]"},
+            {"id": "elective", "name": "Humanities/Social Sciences", "credits": 3, "ref": "[25]"}
+          ],
+          "spring": [
+            {"id": "14:650:401", "name": "Dynamic Systems and Controls", "credits": 3, "ref": "[25]"},
+            {"id": "14:650:449", "name": "Aerospace Materials", "credits": 3, "ref": "[25]"},
+            {"id": "14:650:458", "name": "Aerospace Structures", "credits": 3, "ref": "[25]"},
+            {"id": "14:650:460", "name": "Aerodynamics", "credits": 3, "ref": "[26]"},
+            {"id": "14:650:471", "name": "Aircraft Flight Dynamics", "credits": 3, "ref": "[26]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:650:431", "name": "MAE Laboratory I", "credits": 2, "ref": "[26]"},
+            {"id": "14:650:439", "name": "Multiphysics Simulations", "credits": 3, "ref": "[26]"},
+            {"id": "14:650:457", "name": "Spacecraft and Mission Design", "credits": 3, "ref": "[26]"},
+            {"id": "14:650:465", "name": "Orbital Mechanics", "credits": 3, "ref": "[26]"},
+            {"id": "14:650:487", "name": "Aerospace Engineering Design I", "credits": 2, "ref": "[27]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[27]"}
+          ],
+          "spring": [
+            {"id": "14:650:433", "name": "Aerospace Engineering Laboratory", "credits": 2, "ref": "[27]"},
+            {"id": "14:650:459", "name": "Aerospace Propulsion", "credits": 3, "ref": "[27]"},
+            {"id": "14:650:463", "name": "Compressible Fluid Dynamics", "credits": 3, "ref": "[27]"},
+            {"id": "14:650:488", "name": "Aerospace Engineering Design II", "credits": 2, "ref": "[27]"},
+            {"id": "elective", "name": "Humanities/Social Sciences (200+)", "credits": 3, "ref": "[28]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[28]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Packaging Engineering",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[28]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[28]"},
+            {"id": "01:750:229", "name": "Analytical Physics IIA Lab", "credits": 1, "ref": "[29]"},
+            {"id": "14:440:301", "name": "Introduction to Packaging Engineering", "credits": 3, "ref": "[29]"},
+            {"id": "14:440:302", "name": "Computer-Aided Design for Packaging Engineering", "credits": 3, "ref": "[29]"},
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[29]"}
+          ],
+          "spring": [
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[29]"},
+            {"id": "14:440:222", "name": "Engineering Mechanics: Dynamics", "credits": 3, "ref": "[29]"},
+            {"id": "elective", "name": "Humanities/Social Sciences (300+)", "credits": 3, "ref": "[30]"},
+            {"id": "33:799:301", "name": "Introduction to Supply Chain Management", "credits": 3, "ref": "[30]"},
+            {"id": "14:440:elective", "name": "Packaging Elective", "credits": 3, "ref": "[30]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:440:371", "name": "Packaging Evaluation Methods", "credits": 3, "ref": "[30]"},
+            {"id": "14:440:470", "name": "Packaging Lab I", "credits": 2, "ref": "[30]"},
+            {"id": "14:440:elective", "name": "Packaging Elective", "credits": 3, "ref": "[30]"},
+            {"id": "elective", "name": "Mechanics Elective", "credits": 3, "ref": "[31]"},
+            {"id": "elective", "name": "Statistics Elective", "credits": 3, "ref": "[31]"}
+          ],
+          "spring": [
+            {"id": "01:355:302", "name": "Scientific and Technical Writing", "credits": 3, "ref": "[31]"},
+            {"id": "14:440:471", "name": "Distribution Packaging", "credits": 3, "ref": "[31]"},
+            {"id": "14:440:473", "name": "Packaging Lab II", "credits": 2, "ref": "[31]"},
+            {"id": "14:440:elective", "name": "Packaging Elective", "credits": 3, "ref": "[31]"},
+            {"id": "14:440:418", "name": "Packaging Development Process", "credits": 3, "ref": "[32]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:440:373", "name": "Packaging Manufacturing I", "credits": 3, "ref": "[32]"},
+            {"id": "14:440:419", "name": "Innovation and Design", "credits": 3, "ref": "[32]"},
+            {"id": "elective", "name": "Humanities/Social Sciences (300+)", "credits": 3, "ref": "[32]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[32]"}
+          ],
+          "spring": [
+            {"id": "14:440:420", "name": "Senior Design Project", "credits": 3, "ref": "[32]"},
+            {"id": "14:440:477", "name": "Packaging Manufacturing II", "credits": 3, "ref": "[33]"},
+            {"id": "14:440:elective", "name": "Packaging Elective", "credits": 3, "ref": "[33]"},
+            {"id": "elective", "name": "Science Elective", "credits": 3, "ref": "[33]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Industrial Engineering (BS IE)",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[34]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[34]"},
+            {"id": "01:750:229", "name": "Analytical Physics II Laboratory", "credits": 1, "ref": "[34]"},
+            {"id": "14:540:201", "name": "Work Design & Ergonomics", "credits": 3, "ref": "[34]"},
+            {"id": "14:540:202", "name": "Work Design & Ergonomics Laboratory", "credits": 1, "ref": "[34]"},
+            {"id": "14:540:213", "name": "Industrial Engineering Laboratory", "credits": 2, "ref": "[34]"},
+            {"id": "33:010:310", "name": "Accounting for Engineers", "credits": 3, "ref": "[35]"}
+          ],
+          "spring": [
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[35]"},
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[35]"},
+            {"id": "14:540:210", "name": "Engineering Probability", "credits": 3, "ref": "[35]"},
+            {"id": "14:440:222", "name": "Engineering Mechanics: Dynamics", "credits": 3, "ref": "[35]"},
+            {"id": "01:355:302", "name": "Scientific & Technical Writing", "credits": 3, "ref": "[35]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:180:215", "name": "Engineering Graphics", "credits": 1, "ref": "[36]"},
+            {"id": "14:332:221", "name": "Principles of Electrical Engineering I", "credits": 3, "ref": "[36]"},
+            {"id": "14:540:338", "name": "Probability Models in Operations Research", "credits": 3, "ref": "[36]"},
+            {"id": "14:540:382", "name": "Automation and System Design", "credits": 3, "ref": "[36]"},
+            {"id": "14:540:383", "name": "Automation Laboratory", "credits": 1, "ref": "[36]"},
+            {"id": "14:635:407", "name": "Mechanical Properties of Materials", "credits": 3, "ref": "[36]"},
+            {"id": "14:540:320", "name": "Engineering Statistics", "credits": 3, "ref": "[37]"}
+          ],
+          "spring": [
+            {"id": "14:540:303", "name": "Manufacturing Processes", "credits": 3, "ref": "[37]"},
+            {"id": "14:540:304", "name": "Manufacturing Processes Laboratory", "credits": 1, "ref": "[37]"},
+            {"id": "14:540:311", "name": "Deterministic Models in Operations Research", "credits": 3, "ref": "[37]"},
+            {"id": "14:540:384", "name": "Simulation Models in Industrial Engineering I", "credits": 3, "ref": "[37]"},
+            {"id": "14:540:399", "name": "Design of Engineering Systems I", "credits": 3, "ref": "[37]"},
+            {"id": "elective", "name": "Technical Elective 1 (List B)", "credits": 3, "ref": "[38]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:540:400", "name": "Design of Engineering Systems II", "credits": 3, "ref": "[38]"},
+            {"id": "14:540:433", "name": "Quality Engineering", "credits": 3, "ref": "[38]"},
+            {"id": "14:540:434", "name": "Quality Engineering Laboratory", "credits": 1, "ref": "[38]"},
+            {"id": "14:540:453", "name": "Production Planning and Control", "credits": 3, "ref": "[38]"},
+            {"id": "14:540:487", "name": "Energy Systems Modeling & Opt", "credits": 3, "ref": "[38]"},
+            {"id": "elective", "name": "Technical Elective 2 (List B)", "credits": 3, "ref": "[39]"}
+          ],
+          "spring": [
+            {"id": "14:540:462", "name": "Facilities Layout and Materials Handling", "credits": 3, "ref": "[39]"},
+            {"id": "elective", "name": "Technical Elective 3 (List A)", "credits": 3, "ref": "[39]"},
+            {"id": "elective", "name": "Humanities/Social Sciences Elective", "credits": 3, "ref": "[39]"},
+            {"id": "elective", "name": "Humanities/Social Sciences Elective", "credits": 3, "ref": "[39]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Materials Science Engineering (MSE)",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[40]"},
+            {"id": "01:750:227", "name": "Analytical Physics IIA", "credits": 3, "ref": "[40]"},
+            {"id": "01:750:229", "name": "Analytical Physics II Laboratory", "credits": 1, "ref": "[40]"},
+            {"id": "01:960:xxx", "name": "Statistics (e.g., 384, 401, 490)", "credits": 3, "ref": "[40]"},
+            {"id": "14:635:203", "name": "Introduction to Materials Science Engineering", "credits": 3, "ref": "[40]"},
+            {"id": "14:635:205", "name": "Crystal Chemistry and Structure of Materials", "credits": 3, "ref": "[41]"}
+          ],
+          "spring": [
+            {"id": "01:640:244", "name": "Differential Equations", "credits": 4, "ref": "[41]"},
+            {"id": "14:635:204", "name": "Materials Processing", "credits": 3, "ref": "[41]"},
+            {"id": "14:635:206", "name": "Thermodynamics of Materials", "credits": 4, "ref": "[41]"},
+            {"id": "14:635:212", "name": "Physics of Materials", "credits": 3, "ref": "[41]"},
+            {"id": "14:635:252", "name": "Laboratory I", "credits": 2, "ref": "[41]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:635:305", "name": "Materials Microprocessing", "credits": 3, "ref": "[42]"},
+            {"id": "14:635:307", "name": "Kinetics of Materials Processing", "credits": 3, "ref": "[42]"},
+            {"id": "14:635:309", "name": "Characterization of Materials", "credits": 3, "ref": "[42]"},
+            {"id": "14:635:316", "name": "Electrical, Optical, and Magnetic Properties of Materials", "credits": 3, "ref": "[42]"},
+            {"id": "14:635:354", "name": "Laboratory III", "credits": 2, "ref": "[42]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[42]"}
+          ],
+          "spring": [
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[43]"},
+            {"id": "14:635:314", "name": "Strength of Materials", "credits": 3, "ref": "[43]"},
+            {"id": "14:635:401_or_411", "name": "Senior MSE Lab I OR MSE Engineering Design I", "credits": 3, "ref": "[43]"},
+            {"id": "14:635:353", "name": "Laboratory II", "credits": 2, "ref": "[43]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[43]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:635:402_or_412", "name": "Senior MSE Lab II OR MSE Eng Design I", "credits": 3, "ref": "[43]"},
+            {"id": "14:635:403", "name": "MSE Seminar I", "credits": 1, "ref": "[44]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[44]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[44]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[44]"},
+            {"id": "elective", "name": "Humanities/Social Sciences Elective (200+)", "credits": 3, "ref": "[44]"}
+          ],
+          "spring": [
+            {"id": "14:635:404", "name": "MSE Seminar", "credits": 1, "ref": "[44]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[45]"},
+            {"id": "elective", "name": "Department/Technical Elective", "credits": 3, "ref": "[45]"},
+            {"id": "elective", "name": "Humanities/Social Sciences Elective (200+)", "credits": 3, "ref": "[45]"},
+            {"id": "elective", "name": "General Elective", "credits": 3, "ref": "[45]"}
+          ]
+        }
+      }
+    },
+    {
+      "degree_name": "Chemical Engineering",
+      "curriculum": {
+        "sophomore_year": {
+          "fall": [
+            {"id": "14:155:201", "name": "Material & Energy Bals.", "credits": 3, "ref": "[46]"},
+            {"id": "14:155:298", "name": "Professional Skills Develop.", "credits": 1, "ref": "[46]"},
+            {"id": "01:160:307", "name": "Organic Chemistry I", "credits": 4, "ref": "[46]"},
+            {"id": "01:640:251", "name": "Multivariable Calculus", "credits": 4, "ref": "[46]"},
+            {"id": "01:750:227", "name": "Analytical Physics II", "credits": 3, "ref": "[46]"},
+            {"id": "01:750:229", "name": "Analytical Physics II Lab", "credits": 1, "ref": "[46]"}
+          ],
+          "spring": [
+            {"id": "14:155:208", "name": "Thermodynamics I", "credits": 3, "ref": "[47]"},
+            {"id": "14:155:210", "name": "Biological Found. Chem. Eng.", "credits": 3, "ref": "[47]"},
+            {"id": "elective", "name": "Chemical Science Elective", "credits": 3, "ref": "[47]"},
+            {"id": "01:640:244", "name": "Diff. Eqns. Engineering & Physics", "credits": 4, "ref": "[47]"},
+            {"id": "14:540:343", "name": "Engineering Economics", "credits": 3, "ref": "[47]"}
+          ]
+        },
+        "junior_year": {
+          "fall": [
+            {"id": "14:155:303", "name": "Transport Phen. I", "credits": 3, "ref": "[47]"},
+            {"id": "14:155:307", "name": "Comp. Methods Chem. Eng.", "credits": 3, "ref": "[48]"},
+            {"id": "14:155:309", "name": "Thermodynamics II", "credits": 3, "ref": "[48]"},
+            {"id": "01:160:311", "name": "Organic Chemistry Lab", "credits": 2, "ref": "[48]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[48]"},
+            {"id": "elective", "name": "Hum./Soc. Science Elective", "credits": 3, "ref": "[48]"}
+          ],
+          "spring": [
+            {"id": "14:155:304", "name": "Transport Phen. II", "credits": 3, "ref": "[48]"},
+            {"id": "14:155:324", "name": "Separations Processes", "credits": 3, "ref": "[49]"},
+            {"id": "14:155:341", "name": "Kinetics", "credits": 3, "ref": "[49]"},
+            {"id": "14:635:407", "name": "Mechanical Prop. of Mats.", "credits": 3, "ref": "[49]"},
+            {"id": "elective", "name": "Hum./Soc. Science Elective", "credits": 3, "ref": "[49]"}
+          ]
+        },
+        "senior_year": {
+          "fall": [
+            {"id": "14:155:411", "name": "Biochemical Engineering", "credits": 3, "ref": "[49]", "note": "This fulfills the Biochemical track requirement"},
+            {"id": "14:155:415", "name": "Process Engineering Lab I", "credits": 4, "ref": "[50]"},
+            {"id": "14:155:422", "name": "Process Simul. & Control", "credits": 3, "ref": "[50]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[50]"},
+            {"id": "elective", "name": "General Elective", "credits": 3, "ref": "[50]"}
+          ],
+          "spring": [
+            {"id": "14:155:416", "name": "Processing Engineering Lab II", "credits": 4, "ref": "[50]"},
+            {"id": "14:155:428", "name": "Design II", "credits": 4, "ref": "[50]"},
+            {"id": "elective", "name": "General Elective", "credits": 3, "ref": "[51]"},
+            {"id": "elective", "name": "Technical Elective", "credits": 3, "ref": "[51]"}
+          ]
+        }
+      }
+    }
+  ]
+}
